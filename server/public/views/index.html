@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="presApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Company Generator</title>
+    <link rel="stylesheet" href="assets/stylesheets/style.css"/>
+    <script src="/vendor/angular/angular.min.js"></script>
+    <script src="/vendor/angular/angular-route.min.js"></script>
+    <script src="/assets/scripts/client.js"></script>
+    <base href="/">
+</head>
+<body>
+<section>
+    <h1>Presidential Views</h1>
+    <ul class="header">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/jobs">Jobs</a></li>
+        <li><a href="/rank">Rank</a></li>
+    </ul>
+
+    <div id="main">
+        <ng-view>
+
+
+        </ng-view>
+    </div>
+</section>
+</body>
+</html>
